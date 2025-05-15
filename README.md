@@ -15,7 +15,7 @@ Date, Remaining capacity, Status (Available / Unavailable)
 Shades days marked as “Unavailable” for quick visual reference
 
 📋 Example Output
-https://docs.google.com/spreadsheets/d/11787eRsj2WTeUJI3mtH8SuB3G_j3U2k2YvZ1_ZGmy1Q/edit?gid=0#gid=0
+[upon resquest]
 
 🛠 How It Works
 Open your Google Sheet.
