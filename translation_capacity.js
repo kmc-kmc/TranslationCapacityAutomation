@@ -10,7 +10,7 @@ function updateCapacityFromCalendar() {
   const defaultCapacity = 5600;
   const penaltyPerHour = 700;
 
-  sheet.getRange("A2:C1000").clearContent(); // clear old content from row 2 onwards
+  sheet.getRange("A2:C1000").clearContent(); 
 
   for (let i = 0; i < 14; i++) {
     const currentDate = new Date(startDate);
@@ -40,9 +40,9 @@ function updateCapacityFromCalendar() {
     sheet.getRange(row, 3).setValue(status);
 
     if (status === "Unavailable") {
-      sheet.getRange(row, 1, 1, 3).setBackground("#d9d9d9"); // Light Grey 1
+      sheet.getRange(row, 1, 1, 3).setBackground("#d9d9d9"); 
     } else {
-      sheet.getRange(row, 1, 1, 3).setBackground(null); // Clear background if not Unavailable
+      sheet.getRange(row, 1, 1, 3).setBackground(null); 
     }
   }
 }
