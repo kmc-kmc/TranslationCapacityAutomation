@@ -43,4 +43,4 @@ Added a Trigger to run automatically every day at 1900 To run manually
 
 🛠 Future improvement
 1. To fix the issue when there are events overlapping for 2 days which might happen when taking flight and change it timezone, the calculation of the translation will be incorrect.
-2. This is only made for situation which the translator only have one project manager, more information might needed (e.g. a column for project manager to put how many words alreay taken) when there are more than one project manager to avoid overbooking.
+2. This is only made for situation which the translator only have one project manager, more information might needed (e.g. a column for project manager to put how many words already taken) when there are more than one project manager to avoid overbooking.
